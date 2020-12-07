@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class MrCoxallStack {
     
   // Creates arraylist that will act as a stack
-  ArrayList<Integer> stackAsArray = new ArrayList<Integer>();
+  private ArrayList<Integer> stackAsArray = new ArrayList<Integer>();
 
   // Method 
   public void push(int receivedNum) {
